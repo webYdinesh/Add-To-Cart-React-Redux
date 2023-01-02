@@ -1,0 +1,37 @@
+header{
+    padding: 1rem 1.5rem;
+}
+.logo img{
+    width: 170px;
+}
+nav{
+    width: 50rem;
+    padding-right: 1rem;
+}
+ul{
+    gap: 4rem;
+}
+ul>li>a{
+    font-size: 2rem;
+    color: #fff;
+}
+.cart-icon{
+    position: relative;
+    text-align: center;
+
+}
+.cart-icon span{
+    background-color: #ff0054;
+    color: #fff;
+    font-weight: 600;
+    padding: .3rem .8rem ;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    position: absolute;
+    top: -6px;
+    right: -15px;
+}
+.cart-icon button{
+    background-color: transparent;
+    cursor: pointer;
+}

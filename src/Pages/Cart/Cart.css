@@ -1,0 +1,37 @@
+.productCart{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 100vh;
+}
+.left-side{
+    background:  #ff4482;
+    padding: 1rem 2rem;
+}
+.right-side{
+    padding: 1rem 2rem;
+    background-color: rgb(141, 84, 255);
+}
+
+
+.title{
+    padding: 2rem .5rem;
+}
+
+.title p{
+    font-size: 2rem;
+font-weight: 500;
+
+}
+.quantity-price{
+    gap: 10rem;
+    padding: .5rem;
+
+}
+.product-nav h4{
+font-size: 1.7rem;
+text-transform: uppercase;
+font-weight: 500;
+}
+.product-detail-container{
+    padding: 4rem 0rem;
+}
